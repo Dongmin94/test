@@ -1,19 +1,15 @@
 <template>
   <v-app>
-    <v-toolbar app>
-      <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
-      </v-toolbar-title>
+    <v-toolbar>
+      <v-toolbar-side-icon></v-toolbar-side-icon>
+      <v-toolbar-title>DongminKim</v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn
-        flat
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
+      <v-toolbar-items class="hidden-sm-and-down">
+        <v-btn flat>Home</v-btn>
+        <v-btn flat>Project</v-btn>
+        <v-btn flat>Activity</v-btn>
+        <v-btn flat>About Me</v-btn>
+      </v-toolbar-items>
     </v-toolbar>
 
     <v-content>
