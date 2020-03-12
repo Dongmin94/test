@@ -20,5 +20,6 @@ yarn-error.log*
 *.sln
 *.sw?
 
-#firebase 관련 캐싱 무시하기
+# firebase
 .firebase
+.firebaserc

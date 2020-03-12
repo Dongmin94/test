@@ -1,9 +1,13 @@
 <template>
-  <div class="home">
-    홈페이지 임돠
-  </div>
+  <HelloWorld />
 </template>
 
 <script>
+  import HelloWorld from '../components/HelloWorld'
 
+  export default {
+    components: {
+      HelloWorld
+    }
+  }
 </script>
