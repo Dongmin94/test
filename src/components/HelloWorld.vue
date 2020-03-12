@@ -1,6 +1,6 @@
 <template>
   <div>
-    메인 이에요
+    메인 이에요 (슈정)
   </div>
 </template>
 
