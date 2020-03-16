@@ -1,5 +1,14 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    about page
   </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+    }
+  }
+}
+</script>
